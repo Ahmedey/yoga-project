@@ -118,6 +118,7 @@ header {
     color: #000;
 }
 
+
 .yoga {
     /* */
     background: linear-gradient(rgba(152, 151, 151, 0.5), rgba(111, 111, 111, 0.5)), url('https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-lucas-pezeta-2121066.jpg') ;
@@ -193,7 +194,69 @@ header {
     font-size: 1.25rem;
     font-weight: 400;
 }
+.divine-yoga-sec {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 
+}
+.divine-yoga-sec h2{
+    font-size: 3.125rem;
+    font-weight: 400;
+    color: #2b2b2b;
+    text-align: center;
+}
+
+.divine-yoga {
+    height: 620px;
+    background: url("https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-chermiti-mohamed-3049225.jpg") center/cover no-repeat;
+    margin-inline: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    
+}
+.blog-header {
+    width: 1160px;
+    align-content: center;
+    padding: 2rem;
+    margin-left: 45%;
+    margin-bottom: 1rem;
+    font-size: 3.125rem;
+    color: #2b2b2b;
+    font-weight: 400;
+    line-height: 3.125rem;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #5f6ad4; */
+}
+.blog img {
+    width: 360px;
+    height: 360px;
+    border-radius: 10px;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.blog h3 {
+    font-size: 1.5625rem;
+    font-weight: 400;
+    color: #2b2b2b;
+    line-height: 2rem;
+}
+.blog p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #646464;
+    line-height: 1.625rem;
+}
 .yoga-classes {
     height: 355.188px;
     background: linear-gradient(rgba(152, 151, 151, 0.5), rgba(111, 111, 111, 0.5)), url('https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-lucas-pezeta-2985098.jpg') center/cover no-repeat ;
@@ -336,4 +399,31 @@ footer {
         font-size: 1.125rem ;
         font-weight: 400;
     }
+    footer p {
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+    .divine-yoga-sec h2 {
+        font-size: 2.125rem;
+        font-weight: 400;
+    }
+    .divine-yoga-sec h2 {
+        font-size: 2.125rem;
+    }
+    .blogs {
+        grid-template-columns: 1fr;
+    }
+    .blog h3 {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: #2b2b2b;
+        line-height: 1.5rem;
+    }
+    .blog p {
+        font-size: 1.125rem;
+        font-weight: 400;
+        color: #646464;
+        line-height: 1.3125rem;
+    }
+    
 }
